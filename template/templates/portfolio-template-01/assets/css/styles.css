@@ -1,5 +1,8 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 5px;
+    padding-bottom: 70px;
+    background-color: darkgoldenrod !important;;
 }
 
 h1,
