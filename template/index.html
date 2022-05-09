@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,8 +16,8 @@
         <div class="jumbotron text-center">
             <h1>Mission to Mars</h1>
             <!--Add a button to activate scrapping script-->
-            <p><a class="btn btn-primary btn-lg" href="/scrape"
-                        role="button">Scrape New Data</a></p>
+            <p><a class="btn btn-success btn-lg" href="/scrape"      
+                    role="button">Scrape New Data</a></p>
         </div>
 
         <!-- Mars News -->
@@ -54,7 +55,7 @@
                     {% for hemisphere in mars.hemispheres %}
                         <div class="col-md-3">
                             <div class = "thumbnail">
-                                <img src="{{hemisphere.img_hemi}}"
+                                <img src="{{hemisphere.img_hemi}}" class="img-thumbnail"
                                   <h2><b>{{hemisphere.title}}</b></h2>
                             </div>
                         </div>
